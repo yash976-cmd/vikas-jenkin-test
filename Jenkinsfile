@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/flask-jenkins-demo.git'
+                git 'https://github.com/yash976-cmd/vikas-jenkin-test.git'
             }
         }
 
