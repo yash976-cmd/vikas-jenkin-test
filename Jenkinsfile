@@ -22,6 +22,9 @@ pipeline {
         stage('Run Tests') {
             steps {
                 sh 'pytest'
+                . venv/bin/activate
+                pytest
+
             }
         }
 
